@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+    --color-primary-light: #4a5568;
+    --color-primary: #2d3748;
+    --color-primary-dark: #1a202c;
+    --color-secondary-light: #2b6cb0;
+    --color-secondary: #2c5282;
+    --color-secondary-dark: #2a4365;
+}
+
+body {
+    background-color: var(--color-primary-dark);
+    color: #d1d5db;
+    /* This is equivalent to text-gray-300 */
+}
